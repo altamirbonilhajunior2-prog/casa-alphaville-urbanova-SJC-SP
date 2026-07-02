@@ -1,0 +1,3 @@
+document.querySelector('.menu-toggle').addEventListener('click',()=>document.querySelector('.menu').classList.toggle('open'));
+document.querySelectorAll('.menu a').forEach(a=>a.addEventListener('click',()=>document.querySelector('.menu').classList.remove('open')));
+function sendWhatsApp(e){e.preventDefault();const nome=document.getElementById('nome').value.trim();const tel=document.getElementById('telefone').value.trim();const msg=document.getElementById('mensagem').value.trim();const texto=`Olá, meu nome é ${nome}. Meu telefone é ${tel}. ${msg}`;window.open(`https://wa.me/5512999999999?text=${encodeURIComponent(texto)}`,'_blank');}
