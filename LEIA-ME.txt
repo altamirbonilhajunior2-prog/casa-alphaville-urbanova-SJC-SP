@@ -1,11 +1,5 @@
-INSTRUÇÕES PARA ATUALIZAR NO GITHUB
+B&B Empreendimentos Imobiliários - Landing Casa Alphaville II V6
 
-1. Extraia este ZIP.
-2. Abra a pasta extraída.
-3. No GitHub, vá em Add file > Upload files.
-4. Envie index.html, css, js, imagens e este LEIA-ME.txt.
-5. Clique em Commit changes.
-6. Aguarde 1 a 3 minutos e abra o link do GitHub Pages.
-
-WhatsApp configurado: (12) 97814-0636
-Nome: B&B Empreendimentos Imobiliários
+Envie para o GitHub: index.html e a pasta assets. Não envie o ZIP. Extraia antes.
+WhatsApp: (12) 97814-0636
+Valor: R$ 3.300.000,00
