@@ -1,0 +1,23 @@
+COMO PUBLICAR NO GITHUB PAGES
+
+1. NÃO envie este arquivo ZIP para o GitHub.
+2. Extraia o ZIP no seu computador.
+3. Abra a pasta extraída.
+4. Selecione estes itens:
+   - index.html
+   - css
+   - js
+   - imagens
+   - LEIA-ME.txt
+5. No GitHub, clique em Add file > Upload files.
+6. Arraste os itens acima para o GitHub.
+7. Clique em Commit changes.
+8. Vá em Settings > Pages.
+9. Em Source, selecione Deploy from a branch.
+10. Em Branch, escolha main e /root. Clique em Save.
+
+Link provável depois de publicado:
+https://altamirbonilhajunior2-prog.github.io/casa-alphaville-urbanova-SJC-SP/
+
+IMPORTANTE:
+O arquivo index.html precisa ficar na raiz do repositório, não dentro de uma subpasta.
