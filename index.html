@@ -7,7 +7,7 @@
   <meta name="description" content="Casa de alto padrão à venda no Alphaville II, Urbanova. 310 m², 4 suítes, piscina privativa, espaço gourmet e valor de R$ 3.300.000,00." />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
@@ -16,17 +16,18 @@
     <button class="menu-toggle" aria-label="Abrir menu">☰</button>
     <nav class="menu">
       <a href="#inicio">Home</a>
-      <a href="#imovel">O imóvel</a>
-      <a href="#diferenciais">Diferenciais</a>
-      <a href="#galeria">Fotos</a>
+      <a href="#imovel">A casa</a>
+      <a href="#galeria">Galeria</a>
+      <a href="#clube">Clube</a>
       <a href="#localizacao">Localização</a>
       <a href="#contato">Contato</a>
     </nav>
+    <a class="top-whatsapp" target="_blank" href="https://wa.me/5512999999999?text=Ol%C3%A1%2C%20tenho%20interesse%20na%20casa%20do%20Alphaville%20II%20Urbanova.">WhatsApp</a>
   </header>
 
   <main>
     <section class="hero" id="inicio">
-      <div class="hero-bg"></div>
+      <div class="hero-bg" role="img" aria-label="Fachada da casa iluminada em blue hour"></div>
       <div class="overlay"></div>
       <div class="hero-content">
         <p class="eyebrow">Alphaville II • Urbanova</p>
@@ -42,11 +43,11 @@
     <section class="section" id="imovel">
       <div class="container grid two">
         <div>
-          <p class="section-label">O imóvel</p>
-          <h2>Residência contemporânea para quem busca conforto, privacidade e presença arquitetônica.</h2>
+          <p class="section-label">A casa</p>
+          <h2>Residência contemporânea com presença, conforto e excelente aproveitamento de luz natural.</h2>
         </div>
         <div>
-          <p>Casa de alto padrão em condomínio desejado no Urbanova, com projeto moderno, ambientes integrados e excelente aproveitamento de luz natural.</p>
+          <p>Casa de alto padrão em condomínio desejado no Urbanova, com projeto moderno, ambientes integrados e funcionalidade para uma rotina sofisticada.</p>
           <div class="cards">
             <div><strong>310 m²</strong><span>Área construída</span></div>
             <div><strong>4</strong><span>Suítes</span></div>
@@ -71,12 +72,36 @@
 
     <section class="section" id="galeria">
       <div class="container">
-        <p class="section-label">Fotos</p>
-        <h2>Galeria do imóvel</h2>
-        <div class="gallery">
-          <img src="assets/banner.png" alt="Fachada da casa tratada em blue hour">
-          <img src="assets/banner.png" alt="Vista da fachada">
-          <img src="assets/banner.png" alt="Fachada iluminada">
+        <p class="section-label">Galeria</p>
+        <h2>Fotos do imóvel</h2>
+        <div class="carousel-wrap">
+          <button class="carousel-btn prev" data-carousel="gallery" aria-label="Foto anterior">‹</button>
+          <div class="carousel" id="gallery">
+            <figure><img src="assets/fachada-blue-hour.jpg" alt="Fachada iluminada em blue hour"><figcaption>Fachada iluminada</figcaption></figure>
+            <figure><img src="assets/fachada-dia.jpg" alt="Fachada durante o dia"><figcaption>Fachada original</figcaption></figure>
+            <figure><img src="assets/sala-integrada.jpg" alt="Sala integrada com pé-direito alto"><figcaption>Sala integrada</figcaption></figure>
+            <figure><img src="assets/garagem-varanda.jpg" alt="Garagem e entrada social"><figcaption>Garagem e acesso</figcaption></figure>
+            <figure><img src="assets/fachada-original.jpg" alt="Fachada real da casa"><figcaption>Vista frontal</figcaption></figure>
+          </div>
+          <button class="carousel-btn next" data-carousel="gallery" aria-label="Próxima foto">›</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section dark" id="clube">
+      <div class="container">
+        <p class="section-label">Clube</p>
+        <h2>Lazer completo no Alphaville II</h2>
+        <p class="center-text">Clube com lazer completo, piscinas com raia, quadras de beach tennis, quadras esportivas, academia, salão de festas, playground, áreas verdes e espaços de convivência.</p>
+        <div class="club-grid">
+          <figure><img src="assets/clube-01.svg" alt="Piscinas com raia"><figcaption>Piscinas com raia</figcaption></figure>
+          <figure><img src="assets/clube-02.svg" alt="Piscina infantil"><figcaption>Piscina infantil</figcaption></figure>
+          <figure><img src="assets/clube-03.svg" alt="Quadras de beach tennis"><figcaption>Quadras de beach tennis</figcaption></figure>
+          <figure><img src="assets/clube-04.svg" alt="Quadras esportivas"><figcaption>Quadras esportivas</figcaption></figure>
+          <figure><img src="assets/clube-05.svg" alt="Academia"><figcaption>Academia</figcaption></figure>
+          <figure><img src="assets/clube-06.svg" alt="Salão de festas"><figcaption>Salão de festas</figcaption></figure>
+          <figure><img src="assets/clube-07.svg" alt="Playground"><figcaption>Playground</figcaption></figure>
+          <figure><img src="assets/clube-08.svg" alt="Áreas verdes"><figcaption>Áreas verdes</figcaption></figure>
         </div>
       </div>
     </section>
@@ -108,6 +133,8 @@
       </div>
     </section>
   </main>
+
+  <a class="floating-whatsapp" target="_blank" href="https://wa.me/5512999999999?text=Ol%C3%A1%2C%20tenho%20interesse%20na%20casa%20do%20Alphaville%20II%20Urbanova." aria-label="Falar no WhatsApp">☎</a>
 
   <footer>
     <img src="assets/logo.png" alt="B&B Empreendimentos Imobiliários">
