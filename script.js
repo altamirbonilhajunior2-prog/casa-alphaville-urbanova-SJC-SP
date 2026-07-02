@@ -34,5 +34,5 @@ function sendWhatsApp(e){
   const tel=document.getElementById('telefone').value.trim();
   const msg=document.getElementById('mensagem').value.trim();
   const texto=`Olá, meu nome é ${nome}. Meu telefone é ${tel}. ${msg}`;
-  window.open(`https://wa.me/5512999999999?text=${encodeURIComponent(texto)}`,'_blank');
+  window.open(`https://wa.me/5512978140636?text=${encodeURIComponent(texto)}`,'_blank');
 }

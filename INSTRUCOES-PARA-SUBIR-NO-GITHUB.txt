@@ -1,0 +1,31 @@
+COMO PUBLICAR A VERSÃO CORRIGIDA
+
+1. Abra seu repositório no GitHub:
+   casa-alphaville-urbanova-SJC-SP
+
+2. Clique em Add file > Upload files.
+
+3. Envie TODOS os arquivos e pastas desta pasta corrigida, mantendo a estrutura:
+   - index.html
+   - styles.css
+   - script.js
+   - assets/
+   - galeria/
+   - imagens/
+   - css/
+   - js/
+
+4. Clique em Commit changes.
+
+5. Aguarde 1 a 3 minutos e abra:
+   https://altamirbonilhajunior2-prog.github.io/casa-alphaville-urbanova-SJC-SP/
+
+CORREÇÕES REALIZADAS
+- WhatsApp corrigido para: (12) 97814-0636
+- Removido o número antigo 5512999999999
+- Botão verde flutuante corrigido
+- Botão do menu corrigido
+- Botão 'Falar no WhatsApp' corrigido
+- Formulário corrigido
+- Fotos reais do clube incluídas em assets/clube-real-01.jpg até assets/clube-real-14.jpg
+- Galeria do imóvel atualizada com fotos reais em galeria/imovel-01.jpg em diante
